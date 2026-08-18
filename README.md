@@ -2,26 +2,26 @@
 
 This download-only repository hosts official Windows playtest builds of **King of the Koin**. The game source remains private.
 
-## Latest: v0.19.1 - Resilient Playtest Publisher
+## Latest: v0.20.0 - Self-Healing Traversal
 
-Download the Windows ZIP from the [v0.19.1 release page](https://github.com/krislovescalifornia/KoinKlimb-Playtest/releases/tag/v0.19.1), extract the entire folder, and run `King of the Koin.exe`.
+Download the Windows ZIP from the [v0.20.0 release page](https://github.com/krislovescalifornia/KoinKlimb-Playtest/releases/tag/v0.20.0), extract the entire folder, and run `King of the Koin.exe`.
 
-All players in a match must use the exact same displayed version: **0.19.1**.
+All players in a match must use the exact same displayed version: **0.20.0**.
 
 ## Windows security notice
 
 This invited-friends playtest build is currently **unsigned**, so Windows SmartScreen may show an unrecognized-app warning. Download only from this repository and verify the ZIP before running it.
 
-Expected SHA-256 for `King-of-the-Koin-v0.19.1-windows-x86_64.zip`:
+Expected SHA-256 for `King-of-the-Koin-v0.20.0-windows-x86_64.zip`:
 
 ```text
-9319F43A1D0FBFFBA55CC4E787B8BA255F994244509B1B00E9D826B721713C47
+DD379A97F1D9597FA2BCF145B07639C01EC028E363A2E892AA2D25D37F6AA780
 ```
 
 PowerShell verification:
 
 ```powershell
-(Get-FileHash .\King-of-the-Koin-v0.19.1-windows-x86_64.zip -Algorithm SHA256).Hash
+(Get-FileHash .\King-of-the-Koin-v0.20.0-windows-x86_64.zip -Algorithm SHA256).Hash
 ```
 
 If the hash matches, extract the ZIP. If SmartScreen appears, choose **More info**, confirm the app name is `King of the Koin.exe`, then choose **Run anyway**.
